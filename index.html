@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            background-image: url(/img/bg.jpg);
+            background-size: cover;
+            height: 700px;
+
+        }
+        .header{
+            width: 100%;
+            color: rgb(43, 226, 67);
+            padding: 0 250px;
+            
+            font-size: xx-large;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+           
+        }
+        .choose{
+            width: 100%;
+            color: blue;
+            padding: 0 600px;
+            
+            font-size: x-large;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 600;
+        }
+        .foot{
+            width: 100%;
+            color: rgba(255, 0, 0, 0.721);
+            
+            padding: 0 625px;
+            
+            font-size: x-large;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .container2{
+            width: 100%;
+            background-color: aqua;
+        }
+        .left{
+            width: 25%;
+            float: left;
+            height: 300px;
+        }
+        .right{
+            width: 25%;
+            float: left;
+            height: 300px;
+        }
+        .mid{
+            width: 50%;
+            float: left;
+            /* background-color: blueviolet; */
+            height: 300px;
+
+        }
+        .main1{
+            width: 100%;
+            height: 150px;
+            /* background-color: yellow; */
+        }
+        .game1{
+            width: 50%;
+            height: 150px;
+            border-top-left-radius: 25px;
+            /* background-color: rgb(224, 205, 255); */
+            background-image: url(/img/snakebg.jpg);
+            background-size: cover; 
+            float: left;
+        }
+        .game2{
+            width: 50%;
+            height: 150px;
+            border-top-right-radius: 25px;
+            background-image: url(/img/tocbg.jpg);
+            background-size: cover;
+            float: left;
+        }
+        .main2{
+            width: 100%;
+            height: 150px;
+            
+        }
+        .game3{
+            width: 50%;
+            height: 150px;
+           border-bottom-left-radius: 25px;
+            background-image: url(/img/sudukobg.jpg);
+            background-size: cover;
+            float: left;
+        }
+        .game4{
+            width: 50%;
+            height: 150px;
+            border-bottom-right-radius: 25px;
+            background-image: url(/img/solverbg.jpg);
+            background-size: cover;
+            float: left;
+            
+        }
+        
+    
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%; 
+            text-decoration: none;
+            color: rgb(41, 6, 183);
+            font-weight: 800;
+            font-size: large;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="header"><h1 class="heading">Welcome to the Game Center </h1></div>
+    <div>
+        <h3 class="choose">Pick a Game To Play</h3>
+    </div>
+    <div class="container2">
+        <div class="left" ></div>
+        <div class="mid">
+            <div class="main1">
+                <div class="game1">
+                    <a class="game" href="/snake game/index.html">Snake Game</a>
+                </div>
+                <div class="game2">
+                    <a class="game" href="/Tic-tac Game/tic.html">Tic-Tac Gmae</a>
+                </div>
+            </div>
+            <div class="main2">
+                <div class="game3">
+                    <a class="game" href="/suduko game/suduko.html">Suduko Game</a>
+                </div>
+                <div class="game4">
+                    <a class="game" href="/suduko solver/sudukoSolver.html">Suduko Solver</a>
+                </div>
+            </div>
+        </div>
+        <div class="right"></div>
+    </div>
+    <div class="footer"><h3 class="foot">Enjoy The Game!</h3></div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
